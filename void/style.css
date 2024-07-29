@@ -25,3 +25,12 @@ height: 100 vh;
 background-repeat: no-repeat;
 background-size: contain;
 }
+
+.container-botao{
+  background-color: var(--cor-do-botao);
+  border-radius: 15px;
+  padding: 2em;
+  width: 10%;
+  color: var(--cor-principal);
+  display: block;
+}
