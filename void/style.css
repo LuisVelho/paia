@@ -18,10 +18,13 @@ body{
 
 .principal{
     background-image: url(img/Background\ \(1\).png);
+    align-items: center;
+    text-align: center
+    
 }
 
 .container{
-height: 100 vh;
+height: 100vh;;
 background-repeat: no-repeat;
 background-size: contain;
 display: grid;
@@ -35,4 +38,10 @@ grid-template-columns: 50% 50%;
   width: 10%;
   color: var(--cor-principal);
   display: block;
+  text-decoration: none;
+}
+
+.title-card{
+  font-size: 20px;
+  font-weight: 400;
 }
